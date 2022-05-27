@@ -14,7 +14,7 @@ public class MainPage {
     @FindBy(xpath = "//a[@href='/careers']")
     WebElement careersLink;
 
-
+// I create the go to careers page and we will call this method from testJob class
     public void goToCareersPage(){
        careersLink.click();
 
