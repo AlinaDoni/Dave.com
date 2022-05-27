@@ -12,6 +12,7 @@ import utils.DriverHelper;
 import java.util.concurrent.TimeUnit;
 
 public class testBase {
+    //in this class I created the driver setup and driver teardown so this will run before every test
     public WebDriver driver= DriverHelper.getDriver();
     @BeforeTest
     public void setup(){
